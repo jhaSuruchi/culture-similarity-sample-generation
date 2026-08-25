@@ -1,0 +1,298 @@
+{
+  "started_at": "2026-08-21T05:38:19.057022+00:00",
+  "configuration_hash": "b7c984d310bb231426b8",
+  "sources": {
+    "openalex_scholarly": 1005,
+    "crossref_scholarly": 1040,
+    "wikidata_relations": 10,
+    "unesco_world_heritage": 57,
+    "met_museum_objects": 528,
+    "europeana_objects": 1,
+    "internet_archive_texts": 282,
+    "wikipedia_en": 772,
+    "wikipedia_ja": 58,
+    "wikipedia_id": 153,
+    "curated_national_heritage_pages": 2
+  },
+  "skipped_completed_tasks": 0,
+  "errors": [
+    {
+      "source_id": "met_museum_objects",
+      "query": "India epic narrative retelling",
+      "error": "HTTP 404 for https://collectionapi.metmuseum.org/public/collection/v1/objects/662773: {\"message\":\"Not a valid object\"}"
+    },
+    {
+      "source_id": "met_museum_objects",
+      "query": "India pilgrimage route history",
+      "error": "HTTP 404 for https://collectionapi.metmuseum.org/public/collection/v1/objects/38153: {\"message\":\"Not a valid object\"}"
+    },
+    {
+      "source_id": "met_museum_objects",
+      "query": "India folk performing arts dance drama",
+      "error": "HTTP 404 for https://collectionapi.metmuseum.org/public/collection/v1/objects/38153: {\"message\":\"Not a valid object\"}"
+    },
+    {
+      "source_id": "met_museum_objects",
+      "query": "India sacred symbol motif",
+      "error": "HTTP 404 for https://collectionapi.metmuseum.org/public/collection/v1/objects/39425: {\"message\":\"Not a valid object\"}"
+    },
+    {
+      "source_id": "met_museum_objects",
+      "query": "Nepal Hindu Buddhist syncretism",
+      "error": "HTTP 404 for https://collectionapi.metmuseum.org/public/collection/v1/objects/38572: {\"message\":\"Not a valid object\"}"
+    },
+    {
+      "source_id": "met_museum_objects",
+      "query": "Nepal deity iconography museum collection",
+      "error": "HTTP 404 for https://collectionapi.metmuseum.org/public/collection/v1/objects/38572: {\"message\":\"Not a valid object\"}"
+    },
+    {
+      "source_id": "met_museum_objects",
+      "query": "China festival ritual calendar",
+      "error": "HTTP 404 for https://collectionapi.metmuseum.org/public/collection/v1/objects/65627: {\"message\":\"Not a valid object\"}"
+    },
+    {
+      "source_id": "met_museum_objects",
+      "query": "[seed:ramayana_prambanan:culture_a] Ramayana epic India Valmiki",
+      "error": "HTTP 404 for https://collectionapi.metmuseum.org/public/collection/v1/objects/659912: {\"message\":\"Not a valid object\"}"
+    },
+    {
+      "source_id": "met_museum_objects",
+      "query": "[seed:mahakala_daikokuten:culture_b] Daikokuten Japanese deity prosperity museum",
+      "error": "HTTP 404 for https://collectionapi.metmuseum.org/public/collection/v1/objects/73651: {\"message\":\"Not a valid object\"}"
+    },
+    {
+      "source_id": "met_museum_objects",
+      "query": "[seed:garuda_across_asia:culture_a] Garuda Vishnu vehicle Hindu mythology",
+      "error": "HTTP 404 for https://collectionapi.metmuseum.org/public/collection/v1/objects/38572: {\"message\":\"Not a valid object\"}"
+    },
+    {
+      "source_id": "wikipedia_en",
+      "query": "Ayodhya Ramayana Rama birthplace",
+      "error": "GET failed for https://en.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Ayodhya+Ramayana+Rama+birthplace&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_en",
+      "query": "Nepal Buddhist transmission history",
+      "error": "GET failed for https://en.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Nepal+Buddhist+transmission+history&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_en",
+      "query": "Sri Lanka temple architecture UNESCO",
+      "error": "GET failed for https://en.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Sri+Lanka+temple+architecture+UNESCO&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_en",
+      "query": "Sri Lanka deity iconography museum collection",
+      "error": "GET failed for https://en.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Sri+Lanka+deity+iconography+museum+collection&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_en",
+      "query": "Sri Lanka epic narrative retelling",
+      "error": "GET failed for https://en.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Sri+Lanka+epic+narrative+retelling&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_en",
+      "query": "Sri Lanka pilgrimage route history",
+      "error": "GET failed for https://en.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Sri+Lanka+pilgrimage+route+history&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_en",
+      "query": "China folk performing arts dance drama",
+      "error": "GET failed for https://en.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=China+folk+performing+arts+dance+drama&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_en",
+      "query": "China sacred symbol motif",
+      "error": "GET failed for https://en.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=China+sacred+symbol+motif&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_en",
+      "query": "Korea Buddhist transmission history",
+      "error": "GET failed for https://en.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Korea+Buddhist+transmission+history&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_en",
+      "query": "Korea Hindu Buddhist syncretism",
+      "error": "GET failed for https://en.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Korea+Hindu+Buddhist+syncretism&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_en",
+      "query": "[seed:solar_lineage_india_egypt:culture_a] Suryavansha Solar Dynasty Rama kingship India",
+      "error": "GET failed for https://en.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Suryavansha+Solar+Dynasty+Rama+kingship+India&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_en",
+      "query": "[seed:solar_lineage_india_egypt:culture_b] Ra Re sun god Egyptian kingship son of Re",
+      "error": "GET failed for https://en.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Ra+Re+sun+god+Egyptian+kingship+son+of+Re&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_ja",
+      "query": "Ayodhya Ramayana Rama birthplace",
+      "error": "GET failed for https://ja.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://ja.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Ayodhya+Ramayana+Rama+birthplace&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_ja",
+      "query": "Sri Lanka Hindu Buddhist syncretism",
+      "error": "GET failed for https://ja.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://ja.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Sri+Lanka+Hindu+Buddhist+syncretism&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_ja",
+      "query": "Sri Lanka temple architecture UNESCO",
+      "error": "GET failed for https://ja.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://ja.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Sri+Lanka+temple+architecture+UNESCO&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_ja",
+      "query": "China epic narrative retelling",
+      "error": "GET failed for https://ja.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://ja.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=China+epic+narrative+retelling&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_ja",
+      "query": "China pilgrimage route history",
+      "error": "GET failed for https://ja.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://ja.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=China+pilgrimage+route+history&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_ja",
+      "query": "[seed:saraswati_benzaiten:culture_b] Benzaiten Japanese deity biwa museum",
+      "error": "GET failed for https://ja.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://ja.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Benzaiten+Japanese+deity+biwa+museum&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_ja",
+      "query": "[seed:mahakala_daikokuten:culture_a] Mahakala deity Shiva Buddhist India",
+      "error": "GET failed for https://ja.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://ja.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Mahakala+deity+Shiva+Buddhist+India&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_id",
+      "query": "Ayodhya Ramayana Rama birthplace",
+      "error": "GET failed for https://id.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://id.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Ayodhya+Ramayana+Rama+birthplace&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_id",
+      "query": "Nepal Buddhist transmission history",
+      "error": "GET failed for https://id.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://id.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Nepal+Buddhist+transmission+history&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_id",
+      "query": "Nepal Hindu Buddhist syncretism",
+      "error": "GET failed for https://id.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://id.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Nepal+Hindu+Buddhist+syncretism&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_id",
+      "query": "Nepal temple architecture UNESCO",
+      "error": "GET failed for https://id.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://id.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Nepal+temple+architecture+UNESCO&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_id",
+      "query": "Sri Lanka epic narrative retelling",
+      "error": "GET failed for https://id.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://id.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Sri+Lanka+epic+narrative+retelling&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_id",
+      "query": "Sri Lanka pilgrimage route history",
+      "error": "GET failed for https://id.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://id.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Sri+Lanka+pilgrimage+route+history&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_id",
+      "query": "Sri Lanka festival ritual calendar",
+      "error": "GET failed for https://id.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://id.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Sri+Lanka+festival+ritual+calendar&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_id",
+      "query": "Sri Lanka folk performing arts dance drama",
+      "error": "GET failed for https://id.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://id.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Sri+Lanka+folk+performing+arts+dance+drama&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_id",
+      "query": "Sri Lanka sacred symbol motif",
+      "error": "GET failed for https://id.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://id.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Sri+Lanka+sacred+symbol+motif&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_id",
+      "query": "Korea Hindu Buddhist syncretism",
+      "error": "GET failed for https://id.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://id.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Korea+Hindu+Buddhist+syncretism&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_id",
+      "query": "[seed:buddhism_bihar_japan:culture_a] Bodh Gaya Mahabodhi Temple Buddha enlightenment UNESCO",
+      "error": "GET failed for https://id.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://id.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Bodh+Gaya+Mahabodhi+Temple+Buddha+enlightenment+UNESCO&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_id",
+      "query": "[seed:buddhism_bihar_japan:culture_b] Japanese Buddhist temple architecture history",
+      "error": "GET failed for https://id.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://id.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Japanese+Buddhist+temple+architecture+history&srlimit=20&utf8=1"
+    },
+    {
+      "source_id": "wikipedia_id",
+      "query": "[seed:ramayana_prambanan:culture_a] Ramayana epic India Valmiki",
+      "error": "GET failed for https://id.wikipedia.org/w/api.php after 4 attempts: HTTP 429 for https://id.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Ramayana+epic+India+Valmiki&srlimit=20&utf8=1"
+    }
+  ],
+  "api_key_report": [
+    {
+      "source_type": "openalex",
+      "env": null,
+      "note": "No key. Set CONTACT_EMAIL for the polite pool (faster, more reliable).",
+      "in_use": true,
+      "status": "not_needed"
+    },
+    {
+      "source_type": "crossref",
+      "env": null,
+      "note": "No key. Set CONTACT_EMAIL for the polite pool.",
+      "in_use": true,
+      "status": "not_needed"
+    },
+    {
+      "source_type": "wikipedia",
+      "env": null,
+      "note": "No key.",
+      "in_use": true,
+      "status": "not_needed"
+    },
+    {
+      "source_type": "wikidata",
+      "env": null,
+      "note": "No key, but the public SPARQL endpoint is rate-limited per IP; keep --max-per-query modest.",
+      "in_use": true,
+      "status": "not_needed"
+    },
+    {
+      "source_type": "internet_archive",
+      "env": null,
+      "note": "No key.",
+      "in_use": true,
+      "status": "not_needed"
+    },
+    {
+      "source_type": "met_museum",
+      "env": null,
+      "note": "No key required (confirmed on metmuseum.github.io).",
+      "in_use": true,
+      "status": "not_needed"
+    },
+    {
+      "source_type": "unesco_heritage",
+      "env": null,
+      "note": "No key for reads on the UNESCO DataHub open dataset (whc001). Full-text redistribution is restricted; only short excerpts are stored.",
+      "in_use": true,
+      "status": "not_needed"
+    },
+    {
+      "source_type": "curated_urls",
+      "env": null,
+      "note": "No key; only fetches page <title>/meta description.",
+      "in_use": true,
+      "status": "not_needed"
+    },
+    {
+      "source_type": "europeana",
+      "env": "EUROPEANA_API_KEY",
+      "note": "Free personal API key via a Europeana account (pro.europeana.eu/page/get-api). Unlimited/unthrottled read access.",
+      "in_use": true,
+      "status": "present"
+    }
+  ],
+  "record_count": 2881,
+  "cultural_link_count": 8921,
+  "finished_at": "2026-08-21T06:47:01.567268+00:00"
+}

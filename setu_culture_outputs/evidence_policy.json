@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-08-21T06:47:01.562952+00:00",
+  "schema_version": "1.0",
+  "geographic_scope": [
+    "India",
+    "Nepal",
+    "Sri Lanka",
+    "China",
+    "Korea",
+    "Japan",
+    "Indonesia",
+    "Thailand",
+    "Cambodia",
+    "Laos",
+    "Myanmar",
+    "Malaysia",
+    "Vietnam",
+    "Egypt",
+    "Greece"
+  ],
+  "relationship_types": {
+    "A_documented_transmission": "A cultural/religious tradition demonstrably moves between regions.",
+    "B_localization_adaptation": "A transmitted element is retained but renamed/reinterpreted/visually transformed.",
+    "C_syncretism_religious_integration": "Elements from multiple traditions combine into a new local form.",
+    "D_parallel_motif_convergent_similarity": "Two traditions share a structural idea without evidence one derived from the other.",
+    "E_contested_or_uncertain_relationship": "A proposed link exists in popular discourse but evidence is incomplete/disputed.",
+    "F_false_friend_superficial_resemblance": "Two items look similar but are unrelated in meaning, function, chronology, or origin."
+  },
+  "evidence_classes": [
+    "community_testimony",
+    "institutional_heritage_description",
+    "popular_secondary_material",
+    "primary_evidence",
+    "scholarly_interpretation"
+  ],
+  "source_tiers": {
+    "1": "primary_or_peer_reviewed",
+    "2": "institutional_or_established_translation",
+    "3": "community_or_local_documentation",
+    "4": "discovery_only"
+  }
+}

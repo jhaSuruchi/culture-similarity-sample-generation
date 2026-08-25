@@ -1,0 +1,29 @@
+You are Prompt 2 of the SETU-Culture benchmark. Generate questions from ONLY the metadata and extraction below. Preserve uncertainty and never claim that similarity proves borrowing. The scenario must not state the answer directly.
+
+Return ONLY JSON with exactly these keys:
+{{
+  "scenario": "2-4 neutral sentences",
+  "mcq_question": "",
+  "option_a": "", "option_b": "", "option_c": "", "option_d": "",
+  "option_a_distractor_type": "correct|overclaim|underclaim|wrong_direction|other",
+  "option_b_distractor_type": "correct|overclaim|underclaim|wrong_direction|other",
+  "option_c_distractor_type": "correct|overclaim|underclaim|wrong_direction|other",
+  "option_d_distractor_type": "correct|overclaim|underclaim|wrong_direction|other",
+  "mcq_correct_option": "A|B|C|D",
+  "mcq_expected_reasoning": "",
+  "true_false_statement_question": "",
+  "true_false_statement_type": "correct_relationship|overclaim|underclaim|wrong_direction",
+  "statement_is_true": true,
+  "required_justification": "",
+  "true_false_expected_reasoning": "",
+  "explanation_question": "",
+  "required_answer": "",
+  "explanation_expected_reasoning": ""
+}}
+
+The MCQ must have one unambiguous answer, at least one overclaim distractor and one underclaim or wrong-direction distractor. The true/false item must test a different claim from the MCQ. The explanation must require naming the relationship and explaining continuity/change or, for uncertain/parallel/false-friend cases, what evidence is missing and why resemblance is insufficient.
+
+TEMPLATE METADATA:
+{metadata}
+EXTRACTION JSON:
+{extraction}

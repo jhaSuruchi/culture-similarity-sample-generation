@@ -1,0 +1,15 @@
+source_id,source_name,collector_type,evidence_class,source_tier,enabled,access_level,default_license,requires_api_key
+openalex_scholarly,OpenAlex (scholarly works),openalex,scholarly_interpretation,1,True,metadata_only,varies_by_work_check_openalex_record,
+crossref_scholarly,Crossref (scholarly works),crossref,scholarly_interpretation,1,True,metadata_only,varies_by_work_check_crossref_record,
+wikidata_relations,Wikidata (structured cross-cultural relations),wikidata,institutional_heritage_description,2,True,metadata_only,CC0,
+unesco_world_heritage,UNESCO World Heritage List,unesco_heritage,institutional_heritage_description,2,True,metadata_only,"UNESCO/WHC - attribution required, no redistribution of full text",
+met_museum_objects,Metropolitan Museum of Art collection,met_museum,institutional_heritage_description,2,True,metadata_only,check_isPublicDomain_flag,
+europeana_objects,Europeana cultural heritage collections,europeana,institutional_heritage_description,2,True,metadata_only,varies_by_item_check_rights_field,EUROPEANA_API_KEY
+internet_archive_texts,Internet Archive,internet_archive,primary_evidence,1,True,metadata_only,varies_by_item_check_licenseurl,
+wikipedia_en,"Wikipedia (English, discovery only)",wikipedia,popular_secondary_material,4,True,metadata_only,CC BY-SA,
+wikipedia_ja,"Wikipedia (Japanese, discovery only)",wikipedia,popular_secondary_material,4,True,metadata_only,CC BY-SA,
+wikipedia_id,"Wikipedia (Indonesian, discovery only)",wikipedia,popular_secondary_material,4,True,metadata_only,CC BY-SA,
+youtube_discovery,YouTube (discovery only),youtube,popular_secondary_material,4,False,metadata_only,varies_by_video,YOUTUBE_API_KEY
+heritage_blogs_rss,Curated heritage/culture RSS feeds (discovery only),rss,popular_secondary_material,4,False,metadata_only,varies_by_item,
+institutional_oai_repository,Institutional OAI-PMH repository (configure endpoint),oai_pmh,scholarly_interpretation,1,False,metadata_only,varies_by_repository,
+curated_national_heritage_pages,Curated national heritage agency pages,curated_urls,institutional_heritage_description,2,True,metadata_only,varies_by_site,

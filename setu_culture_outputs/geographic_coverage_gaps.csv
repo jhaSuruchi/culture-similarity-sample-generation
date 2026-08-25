@@ -1,0 +1,76 @@
+country,macro_region,comparative_track,evidence_class,record_count,coverage_gap
+India,South Asia,False,community_testimony,0,yes
+India,South Asia,False,institutional_heritage_description,150,no
+India,South Asia,False,popular_secondary_material,232,no
+India,South Asia,False,primary_evidence,106,no
+India,South Asia,False,scholarly_interpretation,409,no
+Nepal,South Asia,False,community_testimony,0,yes
+Nepal,South Asia,False,institutional_heritage_description,65,no
+Nepal,South Asia,False,popular_secondary_material,73,no
+Nepal,South Asia,False,primary_evidence,0,yes
+Nepal,South Asia,False,scholarly_interpretation,147,no
+Sri Lanka,South Asia,False,community_testimony,0,yes
+Sri Lanka,South Asia,False,institutional_heritage_description,33,no
+Sri Lanka,South Asia,False,popular_secondary_material,88,no
+Sri Lanka,South Asia,False,primary_evidence,9,no
+Sri Lanka,South Asia,False,scholarly_interpretation,276,no
+China,East Asia,False,community_testimony,0,yes
+China,East Asia,False,institutional_heritage_description,141,no
+China,East Asia,False,popular_secondary_material,143,no
+China,East Asia,False,primary_evidence,39,no
+China,East Asia,False,scholarly_interpretation,283,no
+Korea,East Asia,False,community_testimony,0,yes
+Korea,East Asia,False,institutional_heritage_description,15,no
+Korea,East Asia,False,popular_secondary_material,14,no
+Korea,East Asia,False,primary_evidence,21,no
+Korea,East Asia,False,scholarly_interpretation,57,no
+Japan,East Asia,False,community_testimony,0,yes
+Japan,East Asia,False,institutional_heritage_description,35,no
+Japan,East Asia,False,popular_secondary_material,46,no
+Japan,East Asia,False,primary_evidence,22,no
+Japan,East Asia,False,scholarly_interpretation,104,no
+Indonesia,Southeast Asia,False,community_testimony,0,yes
+Indonesia,Southeast Asia,False,institutional_heritage_description,4,no
+Indonesia,Southeast Asia,False,popular_secondary_material,55,no
+Indonesia,Southeast Asia,False,primary_evidence,7,no
+Indonesia,Southeast Asia,False,scholarly_interpretation,120,no
+Thailand,Southeast Asia,False,community_testimony,0,yes
+Thailand,Southeast Asia,False,institutional_heritage_description,2,no
+Thailand,Southeast Asia,False,popular_secondary_material,2,no
+Thailand,Southeast Asia,False,primary_evidence,1,no
+Thailand,Southeast Asia,False,scholarly_interpretation,5,no
+Cambodia,Southeast Asia,False,community_testimony,0,yes
+Cambodia,Southeast Asia,False,institutional_heritage_description,2,no
+Cambodia,Southeast Asia,False,popular_secondary_material,0,yes
+Cambodia,Southeast Asia,False,primary_evidence,0,yes
+Cambodia,Southeast Asia,False,scholarly_interpretation,2,no
+Laos,Southeast Asia,False,community_testimony,0,yes
+Laos,Southeast Asia,False,institutional_heritage_description,0,yes
+Laos,Southeast Asia,False,popular_secondary_material,0,yes
+Laos,Southeast Asia,False,primary_evidence,0,yes
+Laos,Southeast Asia,False,scholarly_interpretation,0,yes
+Myanmar,Southeast Asia,False,community_testimony,0,yes
+Myanmar,Southeast Asia,False,institutional_heritage_description,1,no
+Myanmar,Southeast Asia,False,popular_secondary_material,2,no
+Myanmar,Southeast Asia,False,primary_evidence,0,yes
+Myanmar,Southeast Asia,False,scholarly_interpretation,3,no
+Malaysia,Southeast Asia,False,community_testimony,0,yes
+Malaysia,Southeast Asia,False,institutional_heritage_description,0,yes
+Malaysia,Southeast Asia,False,popular_secondary_material,1,no
+Malaysia,Southeast Asia,False,primary_evidence,0,yes
+Malaysia,Southeast Asia,False,scholarly_interpretation,3,no
+Vietnam,Southeast Asia,False,community_testimony,0,yes
+Vietnam,Southeast Asia,False,institutional_heritage_description,1,no
+Vietnam,Southeast Asia,False,popular_secondary_material,0,yes
+Vietnam,Southeast Asia,False,primary_evidence,1,no
+Vietnam,Southeast Asia,False,scholarly_interpretation,4,no
+Egypt,Comparative Civilizations,True,community_testimony,0,yes
+Egypt,Comparative Civilizations,True,institutional_heritage_description,20,no
+Egypt,Comparative Civilizations,True,popular_secondary_material,0,yes
+Egypt,Comparative Civilizations,True,primary_evidence,9,no
+Egypt,Comparative Civilizations,True,scholarly_interpretation,42,no
+Greece,Comparative Civilizations,True,community_testimony,0,yes
+Greece,Comparative Civilizations,True,institutional_heritage_description,1,no
+Greece,Comparative Civilizations,True,popular_secondary_material,1,no
+Greece,Comparative Civilizations,True,primary_evidence,5,no
+Greece,Comparative Civilizations,True,scholarly_interpretation,3,no

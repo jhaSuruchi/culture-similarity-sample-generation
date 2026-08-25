@@ -1,0 +1,29 @@
+You are Prompt 1 of the SETU-Culture benchmark. Extract only information supported by the two source records below. Do not use outside knowledge and do not turn lexical or visual resemblance into ancestry.
+
+Assign exactly one relationship label from this taxonomy:
+{taxonomy}
+
+For each culture, give the earliest verified date or period range supported by its source; explicitly say unknown/uncertain where needed. Identify exactly one shared element category from: religion_and_philosophy, epics_and_narrative_traditions, deities_symbols_and_iconography, architecture_and_sacred_landscapes, festivals_and_ritual_calendars, food_and_ritual_offerings, performing_arts, kinship_kingship_and_political_symbolism, mythic_motifs, cultural_misconception_correction. The label must be cautious: resemblance alone supports parallel, uncertain, or false-friend, never transmission/localization/syncretism.
+
+Return ONLY JSON:
+{{
+  "relationship_label_suggested": "A_documented_transmission|B_localization_adaptation|C_syncretism_religious_integration|D_parallel_motif_convergent_similarity|E_contested_or_uncertain_relationship|F_false_friend_superficial_resemblance",
+  "culture_a_period": "",
+  "culture_b_period": "",
+  "shared_elements": "",
+  "transmission_evidence_summary": "",
+  "local_transformation_summary": "",
+  "extraction_summary": "",
+  "uncertainty_notes": "",
+  "confidence": "high|medium|low"
+}}
+
+CULTURE A METADATA:
+{a_meta}
+CULTURE A SOURCE TEXT:
+{a_text}
+
+CULTURE B METADATA:
+{b_meta}
+CULTURE B SOURCE TEXT:
+{b_text}
